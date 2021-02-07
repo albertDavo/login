@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  background: #111;
+  background-size: cover;
+  background-position: bottom;
+  overflow-y: hidden;
+}
+
+header {
+  height: 15vh;
+}
+
+.menu {
+  margin: 0.625rem 0;
+}
+
+.menu i {
+  margin-left: -30px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.menu i:hover {
+  cursor: pointer;
+}
+
+.menu li {
+  margin: 0 0.3125rem;
+}
+
+.my-speech-to-davo {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-speech-to-davo p {
+  text-align: center;
+  font-size: 96px;
+  color: white;
+}
+
+.password-validation {
+  visibility: visible;
+  pointer-events: none;
+  position: fixed;
+  top: -50px;
+  right: 0;
+  left: 10px;
+  z-index: 1;
+  width: 30%;
+  background: #ff17176c;
+  color: white;
+}
+
+.password-validation p {
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright-info {
+  padding: 20px 0;
+}
+
+.copyright-info p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.validation-block {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
